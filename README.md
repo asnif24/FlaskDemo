@@ -6,3 +6,6 @@
 $env:FLASK = "app.py"
 $env:FLASK_ENV = "development"
 ```
+
+Template Designer Documentation -> list-of-builtin-filters   
+https://jinja.palletsprojects.com/en/3.0.x/templates/#list-of-builtin-filters
