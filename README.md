@@ -4,7 +4,7 @@
 ```
 # for power shell
 $env:FLASK = "app.py"
-$env:FLASK_ENV = "development"
+$env:FLASK_DEBUG = True
 ```
 
 Template Designer Documentation -> list-of-builtin-filters   
