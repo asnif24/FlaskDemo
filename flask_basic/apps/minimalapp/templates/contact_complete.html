@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>諮詢完成</title>
+    <link rel="stylesheet" href="{{url_for('static', filename='style.css')}}" />
+</head>
+
+<body>
+    <h2>{{ username }}諮詢完成</h2>
+
+    {% with messages = get_flashed_messages() %}
+    {% if messages %}
+    <ul>
+        {% for message in messages%}
+        <li class="flash">{{ message }}</li>
+        {% endfor %}
+    </ul>
+    {% endif %}
+    {% endwith %}
+</body>
+
+</html>
