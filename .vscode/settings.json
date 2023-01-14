@@ -8,5 +8,13 @@
     "editor.codeActionsOnSave": {
         "source.organizeImports": true
     },
-    "python.linting.mypyEnabled": true
+    "python.linting.mypyEnabled": true,
+    "python.analysis.extraPaths": [
+        // "./src",
+        // "./modules",
+        "/Users/HTLin/Udemy/FlaskDemo/flask_basic/.venv/lib/site-packages/"
+    ],
+    // "python.analysis.diagnosticSeverityOverrides": {
+    //     "reportMissingImports": "none"
+    // }
 }
